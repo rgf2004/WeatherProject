@@ -1,0 +1,18 @@
+package com.weather.core.constants;
+
+public class Constants {
+
+	/*
+	 * any change in this file the front end will be affected
+	 */
+	
+	public static final String EMAIL = "email";
+	public static final String PASSWORD = "password";	
+	public static final String COOKIE_TOKEN_NAME = "token";
+	public static final String NOTE_RANGE_ID = "range_id";
+	public static final String NOTES_ELEMENT = "notes";
+	public static final String WEATHER_ELEMENT = "weather";
+	public static final String NOTE = "note";
+	
+	
+}
