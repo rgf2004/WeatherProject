@@ -14,16 +14,16 @@ public class WeatherException extends Exception {
 		super();
 	}
 	
-	public WeatherException(int _code, String msg)
+	public WeatherException(int code, String msg)
 	{
 		super(msg);
-		code = _code;
+		this.code = code;
 	}
 	
-	public WeatherException(int _code, String msg, Throwable ex)
+	public WeatherException(int code, String msg, Throwable ex)
 	{
 		super(msg,ex);
-		code = _code;
+		this.code = code;
 	}
 
 		

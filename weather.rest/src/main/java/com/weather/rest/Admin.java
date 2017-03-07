@@ -172,7 +172,7 @@ public class Admin {
 
 		try {
 
-			List<Note> notes = noteDao.getAllPredefinedNotes();
+			List<PredefinedNote> notes = noteDao.getAllPredefinedNotes();
 			
 			return Response.status(200).entity(jsonHandler.createSuccessJsonResponseWithBody(Constants.NOTES_ELEMENT,notes)).build();
 

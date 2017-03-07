@@ -93,11 +93,11 @@ public class NoteDao {
 	}
 	
 	@SuppressWarnings("unchecked")
-	public List<Note> getAllPredefinedNotes() throws WeatherException {
+	public List<PredefinedNote> getAllPredefinedNotes() throws WeatherException {
 		
 		Query query = em.createQuery("from " + PredefinedNote.class.getSimpleName() + " n order by n.id desc");
 		
-		List<Note> notes = query.getResultList();
+		List<PredefinedNote> notes = query.getResultList();
 		
 		return notes;
 	}
