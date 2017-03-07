@@ -99,8 +99,8 @@ public class Admin {
 	@Produces(MediaType.APPLICATION_JSON)
 	public Response createNote(Note note) {
 
-		logger.info("Create User Method has been called");
-		logger.debug("Parameters : Note [{}]", note.toString());
+		logger.info("Create Note Method has been called");
+		logger.debug("Parameters : Note [{}]", note);
 
 		try {
 
